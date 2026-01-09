@@ -14,13 +14,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #FFFFFF;
 }
+/* header area css start */
 nav{
     display: flex;
     justify-content: space-between;
     max-width: 1600px;
     height: 92px;
-    background-color:  rgba(255, 255, 255, 1);
+   background-color: #FFFFFF;
     align-items: center;
     padding: 16px 120px;
 
@@ -37,4 +39,82 @@ nav ul a{
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 16px;
+}
+/* hero area css start */
+.hero-area{
+    max-width: 1600px;
+    height: 674px;
+    background-image: url(assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-area h3{
+    font-family: Inter;
+font-style: Bold;
+font-size: 72px;
+font-weight: 700;
+line-height: 84px;
+color: #FFFFFF;
+text-align: center;
+text-transform: capitalize;
+
+}
+.hero-area .header{
+    font-family: Inter;
+font-size: 72px;
+font-weight: 700;
+line-height: 84px;
+color: #30b868;
+text-align: center;
+text-transform: capitalize;
+}
+.hero-area p{
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+color: #FFFFFF;
+padding: 16px 0px;
+}
+.early-acc{
+    background-color: #FFFFFF;
+    padding: 8px 12px 8px 12px;
+    border-radius: 1000px;
+    display: flex;
+    gap: 9px;
+}
+.btn-area{
+    display: flex;
+    gap: 9px;
+}
+.hero-area .btn-1{
+    background-color: #30b868;
+    width: 251px;
+    height: 52px;
+    padding: 16px 12px;
+    align-items: center;
+    color: #FFFFFF;
+    border-radius: 4px;
+    
+}
+.hero-area .btn-2{
+    box-sizing: border-box;
+  border: 1px solid #FFFFFF;
+    width: 198px;
+    height: 52px;
+    padding: 16px 12px;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
 }
